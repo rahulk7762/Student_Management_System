@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http:www.thymeleaf.org">
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
@@ -14,6 +14,11 @@
       </tr>
     </thead>
     <tbody>
+      <tr th:each="allStudents:${students}">
+        <td>th:text="${allStudents.firstName}"</td>
+        <td>th:text="${allStudents.lastName}"</td>
+        <td>th:text="${allStudents.email}"</td>
+      </tr>
     </tbody>
   </table>
 </body>
