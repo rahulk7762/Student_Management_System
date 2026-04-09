@@ -33,5 +33,10 @@ public class ServiceImpl implements StudentService {
 	public Student getById(int id) {
 	    return Studentrepositary.findById(id).orElse(null);
 	}
+
+	@Override
+	public void deleteById(int id) {
+		Studentrepositary.deleteById(id);
+	}
 	
 }
