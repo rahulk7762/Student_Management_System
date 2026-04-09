@@ -82,9 +82,18 @@ http://localhost:8080/students
 ---
 
 ## 📸 Screenshot
+Showing the Entire students in List Form
 <img width="1901" height="855" alt="image" src="https://github.com/user-attachments/assets/668f36c7-c511-48e1-b644-b7c7c445d534" />
 
-(Add your project screenshot here)
+
+Adding the New Student
+<img width="796" height="519" alt="image" src="https://github.com/user-attachments/assets/14e7407c-c996-4427-bb3d-63723b1b58b0" />
+
+
+
+updating the existing Student
+
+<img width="957" height="645" alt="image" src="https://github.com/user-attachments/assets/0b3bd7b3-33fd-4b0a-be5f-5f00923f3809" />
 
 ---
 
