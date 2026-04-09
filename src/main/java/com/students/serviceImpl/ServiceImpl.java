@@ -15,6 +15,7 @@ public class ServiceImpl implements StudentService {
 	@Autowired
 	Studentrepositary  Studentrepositary;
 	
+	@Override
 	public List<Student> getAllStudents(){
 		
 		List<Student> list = Studentrepositary.findAll();
@@ -22,9 +23,15 @@ public class ServiceImpl implements StudentService {
 		
 	}
 	
+	@Override
 	public Student saveStudent(Student student) {
 		return Studentrepositary.save(student);
 		
+	}
+
+	@Override
+	public Student getById(int id) {
+	    return Studentrepositary.findById(id).orElse(null);
 	}
 	
 }
