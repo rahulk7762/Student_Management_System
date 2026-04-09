@@ -22,4 +22,9 @@ public class ServiceImpl implements StudentService {
 		
 	}
 	
+	public Student saveStudent(Student student) {
+		return Studentrepositary.save(student);
+		
+	}
+	
 }
